@@ -1,0 +1,11 @@
+﻿  Snake.cpp
+Snake.cpp(8): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Snake.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UAE@XZ)
+Snake.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z)
+Snake.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QAE@PBDABVlocale@std@@@Z)
+Snake.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QAE@III@Z)
+Snake.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::Music::openFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?openFromFile@Music@sf@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Snake.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::Music::~Music(void)" (__imp_??1Music@sf@@UAE@XZ)
+Snake.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Music::Music(void)" (__imp_??0Music@sf@@QAE@XZ)
+Snake.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ)
+D:\มีสาระ\compro1\labcompro\Assingment\GameV2\Snake\Release\Snake.exe : fatal error LNK1120: 8 unresolved externals
